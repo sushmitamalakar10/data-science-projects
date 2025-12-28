@@ -51,21 +51,21 @@ The application uses **XGBoost model** for the final prediction.
 
 2. **Navigate to the project folder:**
   ```bash
-  cd menstrual-cycle-predictor
+   cd menstrual-cycle-predictor
 
 3. **Set up a virtual environment:**
   ```bash
-  python -m venv env
+   python -m venv env
 
-4. **Activate the virtual environment::**
+4. **Activate the virtual environment:**
   ```bash
-  .\env\Scripts\Activate
+   .\env\Scripts\Activate
 
-5. ***Install the required dependencies:*** 
+5. **Install the required dependencies:** 
   ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 You can install the required packages by installing the necessary libraries
 
 ```bash
-pip install streamlit pandas joblib scikit-learn xgboost
+ pip install streamlit pandas joblib scikit-learn xgboost
