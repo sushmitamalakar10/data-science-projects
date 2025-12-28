@@ -1,4 +1,4 @@
-# 🌸 Menstrual Cycler Predictor
+# 🌸 Menstrual Cycle Predictor
 
 This is a **Period Prediction** web application built with **Streamlit**. It predicts the number of days left until your next period based on various inputs like **cycle length**, **mood**, **stress**, **sleep hours**, **pain level**, **PMS symptoms**, and more.
 
