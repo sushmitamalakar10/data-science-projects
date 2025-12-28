@@ -16,7 +16,7 @@ def load_artifacts():
 
 model2 = load_artifacts()
 
-st.title("🌺 Period Prediction")
+st.title("🌺 Menstrual Cycle Predictor")
 
 # Last period
 last_period = st.date_input(
@@ -26,7 +26,7 @@ last_period = st.date_input(
 
 # Cycle info
 col1, col2 = st.columns(2)
-prev_cycle_length = col1.slider("Previous Cycle Length (Days)", 20, 45, 28)
+prev_cycle_length = col1.slider("🔢 Previous Cycle Length (Days)", 20, 45, 28)
 pain = col2.slider("😣 Pain Level (1-10)", 1, 10, 1)
 
 # Wellness info
@@ -76,13 +76,16 @@ if st.button("Predict Period"):
 
     col1, col2 = st.columns(2)
     # col1.metric("Days Left (Model 1)", days_to_period_model1)
-    col1.metric("Days Left (Model 2)", days_to_period_model2)
+    # col1.metric("Days Left (Model 2)", days_to_period_model2)
 
     # next_period_date_model1 = last_period + timedelta(days=days_to_period_model1)
     next_period_date_model2 = last_period + timedelta(days=days_to_period_model2)
 
     col1, col2 = st.columns(2)
     # col1.metric("Predicted Date (Model 1)", next_period_date_model1.strftime("%d %b %Y"))
-    col1.metric("Predicted Date", next_period_date_model2.strftime("%d %b %Y"))
+    # col1.metric("Days Left (Model 2)", days_to_period_model2)
+    
+    col1.metric("Days Left", days_to_period_model2)
+    col2.metric("Predicted Date", next_period_date_model2.strftime("%d %b %Y"))
     
 
