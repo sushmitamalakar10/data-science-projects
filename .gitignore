@@ -1,8 +1,8 @@
-# Ignore all Dataset folders in all projects
-Dataset/
-Datasets/
-**/Dataset/
-**/Datasets/
+# # Ignore all Dataset folders in all projects
+# Dataset/
+# Datasets/
+# **/Dataset/
+# **/Datasets/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
