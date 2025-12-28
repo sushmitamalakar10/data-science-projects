@@ -36,8 +36,8 @@ The application uses **XGBoost model** for the final prediction.
 **Screenshots**
 1. **App Input Page**:
 
-   ![](screenshots/input_page.png)
+   ![](Screenshots/input_page.png)
 
 2. **App Prediction Output**:
 
-   ![](screenshots/output_page.png)
+   ![](Screenshots/output_page.png)
