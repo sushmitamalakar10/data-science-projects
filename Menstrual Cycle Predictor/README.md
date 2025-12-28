@@ -64,7 +64,7 @@ The application uses **XGBoost model** for the final prediction.
    ```bash
    .\env\Scripts\Activate
 
-**Install the required dependencies:** 
+5. **Install the required dependencies:** 
 
    ```bash
    pip install -r requirements.txt
