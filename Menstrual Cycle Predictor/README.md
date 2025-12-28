@@ -4,6 +4,15 @@ This is a **Period Prediction** web application built with **Streamlit**. It pre
 
 The app uses **machine learning models** (Random Forest and XGBoost) to predict the next period based on historical data and personal health information.
 
+**Screenshots**
+1. **App Input Page**:
+
+   ![](Screenshots/input_page.png)
+
+2. **App Prediction Output**:
+
+   ![](Screenshots/output_page.png)
+
 ## Features:
 - **Input Parameters**: 
   - Last period date
@@ -33,11 +42,30 @@ The application uses **XGBoost model** for the final prediction.
 - Scikit-learn
 - XGBoost
 
-**Screenshots**
-1. **App Input Page**:
+## Installation:
 
-   ![](Screenshots/input_page.png)
+1. **Clone the repository** to your local machine:
 
-2. **App Prediction Output**:
+   ```bash
+   git clone https://github.com/your-username/menstrual-cycle-predictor.git
 
-   ![](Screenshots/output_page.png)
+2. **Navigate to the project folder:**
+  ```bash
+  cd menstrual-cycle-predictor
+
+3. **Set up a virtual environment:**
+  ```bash
+  python -m venv env
+
+4. **Activate the virtual environment::**
+  ```bash
+  .\env\Scripts\Activate
+
+5. ***Install the required dependencies:*** 
+  ```bash
+  pip install -r requirements.txt
+
+You can install the required packages by installing the necessary libraries
+
+```bash
+pip install streamlit pandas joblib scikit-learn xgboost
