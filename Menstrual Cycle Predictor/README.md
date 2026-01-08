@@ -47,7 +47,7 @@ The application uses **XGBoost model** for the final prediction.
 1. **Clone the repository** to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/menstrual-cycle-predictor.git
+   git clone https://github.com/sushmitamalakar10/menstrual-cycle-predictor.git
 
 2. **Navigate to the project folder:**
 
